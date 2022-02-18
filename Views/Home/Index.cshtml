@@ -1,0 +1,49 @@
+﻿@model Interesse
+@{
+    ViewData["Title"] = "Hotsite";
+}
+
+<div>
+    <h1>Iniciativa Saúde da Cidade</h1>
+    <p>
+        Texto sobre vida saudável: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
+    </p>
+    <p>
+        Texto sobre vida iniciativa: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.
+    </p>
+</div>
+
+<div class="">
+    <h2>Fique em contato!</h2>
+    <p>Nos mande uma mensagem e fique por dentro de nossos eventos</p>
+
+    <form action="/Home/Cadastrar" method="POST">
+        <div>
+            <label asp-for="Nome">Nome:</label>
+            <input asp-for="Nome" required/>
+        </div>
+        <div>
+            <label asp-for="Email">Email:</label>
+            <input asp-for="Email" required/>
+        </div>
+        <div>
+            <label asp-for="Mensagem">Mensagem (opcional):</label>
+            <textarea asp-for="Mensagem"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar" />
+        </div>
+    </form>
+</div>
+
+<div class="container">
+    <div class="row">
+    <div class="col">
+    <a href="#">Agenda de eventos</a>
+    </div>
+    <div class="col">
+    <a href="#">Dicas de vida saudável</a>
+    </div>
+    <div class="col">
+    <a href="#">Apoiadores</a>
+</div>
