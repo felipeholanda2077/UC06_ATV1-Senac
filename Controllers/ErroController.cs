@@ -19,7 +19,7 @@ namespace projetohotsite.Controllers
         {
             _logger = logger;
         }
-
+        // O erro 500 é a falha que impede que sites sejam carregados pelo usuário
         [Route("/erro/500")]
         public IActionResult Erro500()
         {
@@ -37,7 +37,7 @@ namespace projetohotsite.Controllers
             }
             return View("Erro", erro);
         }
-
+        // Erro de rota 404 bastante conhecido quando não é localizada uma pagina
         [Route("/erro/404")]
         public IActionResult Erro404()
         {
