@@ -50,7 +50,7 @@ namespace Hotsite
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            loggerFactory.AddFile("Logs/meulog-{Date}.txt", LogLevel.Error);
+            loggerFactory.AddFile("Logs/meulog-{Date}.txt", LogLevel.Warning);
         }
     }
 }

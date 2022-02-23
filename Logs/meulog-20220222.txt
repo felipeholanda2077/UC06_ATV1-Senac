@@ -1,0 +1,1 @@
+2022-02-22T23:24:25.5899285-03:00 0HMFMEDG9BVBC:00000005 [ERR] Erro ao cadastrar o item: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseMySql' call. (24494f1f)

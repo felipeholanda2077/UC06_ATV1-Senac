@@ -19,27 +19,33 @@ namespace Hotsite.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index() //Retorno da index
         {
             return View();
         }
 
-        [HttpPost]
+        [HttpPost] //Cadastrar Formulario
         public IActionResult Cadastrar(Interesse cad)
         {
+            DatabaseService dbs = new DatabaseService();
             try
             {
-                DatabaseService dbs = new DatabaseService();
                 dbs.CadastraInteresse(cad);
-            
+                ModelState.Clear();
+                ViewData["Mensagem"] = "Cadastrado confirmado";
 
-            } catch(Exception e) {
-            _logger.LogError("Erro Global: " + e.Message);
+
+            } catch(MySqlException e) {
+              _logger.LogError(e.Message);
+              return View("Erro", e.Message);
+            } 
+            catch (Exception e)
+            {
+                _logger.LogError("Erro ao cadastrar o item: " + e.Message);
+                return View("Erro", "Erro ao cadastrar o item: " + e.Message);
             }
 
-
-
-            return View("Index", cad);
+           return View("Index");
         }
 
     }
