@@ -15,7 +15,7 @@
 
 <p align="center">Índice<br>
 <a href="#sobre">Sobre</a> •
-<a href="#Tecnologias">Tecnologias</a> •
+<a href="#Tecnologias-">Tecnologias</a> •
 <a href="#Ferramentas">Ferramentas</a></p>
 
 <br>
@@ -38,7 +38,7 @@
 
 <br>
 
-  Made with 💜 by FELIPE HOLANDA 👋🏻 [See my Linkedin](https://www.linkedin.com/in/felipe-holanda-de-freitas-3a91281a2/)
+  Made with 💜 by FELIPE HOLANDA 👋🏻 <br>[See my Linkedin](https://www.linkedin.com/in/felipe-holanda-de-freitas-3a91281a2/)
   
 <br>
 
