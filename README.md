@@ -7,7 +7,7 @@
 </p>
 
 <h1 align="center">Sobre o Projeto</h1>
-### UC06_ATV1-Senac
+<h3 align="center">UC06_ATV1-Senac</h3>
 
 <h4>Site Hotsite um site para projetos na área de saúde em desenvolvimento para a atividade do Senac</h4>
 
