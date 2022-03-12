@@ -19,8 +19,9 @@
 <a href="#Ferramentas">Ferramentas</a></p>
 
 <br>
-<br>
 <h1></h1>
+<br>
+
   ### Tecnologias 🚀
 
   As seguintes ferramentas foram usadas na construção do projeto:
