@@ -6,17 +6,17 @@
    </a>
 </p>
 
-# Sobre o Projeto
+<h1 align="center">Sobre o Projeto</h1>
 ### UC06_ATV1-Senac
 
 <h4>Site Hotsite um site para projetos na área de saúde em desenvolvimento para a atividade do Senac</h4>
 
 <br>
 
-<p aling="center">Esse projeto...</p>
+<p align="center">Índice<br>
 <a href="#sobre">Sobre</a> •
 <a href="#Tecnologias">Tecnologias</a> •
-<a href="#Ferramentas">Ferramentas</a>
+<a href="#Ferramentas">Ferramentas</a></p>
 
 <br>
 <br>
